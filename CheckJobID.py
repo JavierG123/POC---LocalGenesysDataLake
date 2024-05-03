@@ -24,7 +24,7 @@ authApi = PureCloudPlatformClientV2.AuthorizationApi(apiclient)
 
 # create an instance of the API class
 api_instance = PureCloudPlatformClientV2.ConversationsApi(apiclient)
-job_id = 'c1e008b3-589f-4a65-b64c-73c6ccc3f2f6'  # str | jobId
+job_id = ''  # str | jobId
 
 try:
     # Get status for async query for conversation details
